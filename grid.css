@@ -1,11 +1,14 @@
+/*! suit-grid v1.0.0 | MIT License | github.com/suitcss */
+
 /* ==========================================================================
-   Grid
+   SUIT: Grid
    ========================================================================== */
 
 /**
  * Core grid component
- * Make use of dimension utilities, or components that extend 'grid' in order
- * to apply particular widths to cells.
+ *
+ * DO NOT apply dimension or offset utilities to the `Grid` element. All cell
+ * widths and offsets should be applied to child grid cells.
  *
  * Example uses:
  *
